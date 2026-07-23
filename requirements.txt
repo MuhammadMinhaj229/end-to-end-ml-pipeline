@@ -2,11 +2,9 @@ pandas
 numpy
 scikit-learn
 xgboost
-mlflow
 fastapi
 uvicorn
 pydantic
-evidently
 streamlit
 pytest
 httpx
