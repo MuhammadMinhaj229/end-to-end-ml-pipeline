@@ -1,6 +1,7 @@
 __pycache__/
 mlruns/
 mlflow.db
-models/*.pkl
+# models/*.pkl
+!models/churn_model.pkl
 __pycache__/
 *.pyc
