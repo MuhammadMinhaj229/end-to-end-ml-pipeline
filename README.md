@@ -1,5 +1,7 @@
 # ⚙️ End-to-End ML Pipeline (MLOps)
 
+[![Streamlit App](https://static.streamlit.io/badgebar/badge.svg)](https://end-to-end-ml-pipeline-nqkrhynite6pfvygrzlm92.streamlit.app/)
+
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104-teal)
 ![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
@@ -243,10 +245,7 @@ open http://localhost:8000/docs
 
 ---
 
-## 🔗 Live Demo
-
-👉 **[Live API Docs](https://end-to-end-ml-minhaj.onrender.com/docs)**
-👉 **[Launch Dashboard](https://end-to-end-ml-minhaj.streamlit.app)**
+👉 **[Launch Dashboard](https://end-to-end-ml-pipeline-nqkrhynite6pfvygrzlm92.streamlit.app/)**
 
 ---
 
