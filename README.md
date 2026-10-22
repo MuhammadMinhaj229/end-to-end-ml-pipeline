@@ -1,4 +1,4 @@
-# ⚙️ End-to-End ML Pipeline (MLOps)
+#  End-to-End ML Pipeline (MLOps)
 
 [![Streamlit App](https://static.streamlit.io/badgebar/badge.svg)](https://end-to-end-ml-pipeline-nqkrhynite6pfvygrzlm92.streamlit.app/)
 
@@ -16,7 +16,7 @@
 
 ---
 
-## 🏢 The Real Business Problem
+## The Real Business Problem
 
 Most data science projects die in Jupyter notebooks.
 A model that lives only on a data scientist's laptop
@@ -51,7 +51,7 @@ Model failures in production cost an average of
 
 ---
 
-## 💡 The Solution This Project Builds
+## The Solution This Project Builds
 
 A complete MLOps architecture with 6 layers:
 
@@ -103,7 +103,7 @@ Weekly automated drift detection:
 
 ---
 
-## 📊 System Performance
+## System Performance
 
 | Metric | Value |
 |--------|-------|
@@ -118,7 +118,7 @@ Weekly automated drift detection:
 
 ---
 
-## 📊 Business Impact
+## Business Impact
 
 | Metric | Without MLOps | With This Pipeline |
 |--------|--------------|-------------------|
@@ -131,7 +131,7 @@ Weekly automated drift detection:
 
 ---
 
-## 🌍 Industries Where This System Applies
+## Industries Where This System Applies
 
 | Industry | Use Case | Impact |
 |----------|----------|--------|
@@ -144,7 +144,7 @@ Weekly automated drift detection:
 
 ---
 
-## 🛠️ Complete Tech Stack
+## ️ Complete Tech Stack
 
 | Category | Tool | Purpose |
 |----------|------|---------|
@@ -161,7 +161,7 @@ Weekly automated drift detection:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 end-to-end-ml-pipeline/
 ├── app/
@@ -188,7 +188,7 @@ end-to-end-ml-pipeline/
 
 ---
 
-## 🔑 Key Technical Decisions
+## Key Technical Decisions
 
 **Why FastAPI over Flask?**
 FastAPI is async, 2–3x faster than Flask,
@@ -210,7 +210,7 @@ It detects statistical drift using multiple tests
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 ```bash
 # Clone repo
@@ -234,7 +234,7 @@ open http://localhost:8000/docs
 
 ---
 
-## 📈 Key Findings Summary
+## Key Findings Summary
 
 - **38ms average API response time** — suitable for real-time applications
 - **4-minute CI/CD pipeline** — from code push to live deployment
@@ -245,7 +245,7 @@ open http://localhost:8000/docs
 
 ---
 
-👉 **[Launch Dashboard](https://end-to-end-ml-pipeline-nqkrhynite6pfvygrzlm92.streamlit.app/)**
+ **[Launch Dashboard](https://end-to-end-ml-pipeline-nqkrhynite6pfvygrzlm92.streamlit.app/)**
 
 ---
 
