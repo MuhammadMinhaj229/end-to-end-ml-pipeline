@@ -1,4 +1,4 @@
-#  End-to-End ML Pipeline (MLOps)
+# End-to-End ML Pipeline (MLOps)
 
 [![Streamlit App](https://static.streamlit.io/badgebar/badge.svg)](https://end-to-end-ml-pipeline-nqkrhynite6pfvygrzlm92.streamlit.app/)
 
@@ -144,7 +144,7 @@ Weekly automated drift detection:
 
 ---
 
-## ️ Complete Tech Stack
+## Complete Tech Stack
 
 | Category | Tool | Purpose |
 |----------|------|---------|
@@ -164,27 +164,27 @@ Weekly automated drift detection:
 ## Project Structure
 
 end-to-end-ml-pipeline/
-├── app/
-│   └── streamlit_app.py              # Business dashboard UI
-├── src/
-│   ├── init.py
-│   ├── train.py                      # Model training + MLflow logging
-│   ├── predict.py                    # Prediction logic
-│   ├── api.py                        # FastAPI application
-│   ├── schemas.py                    # Pydantic input/output schemas
-│   └── monitor.py                    # EvidentlyAI drift detection
-├── tests/
-│   ├── test_api.py                   # API endpoint tests
-│   └── test_predict.py               # Prediction logic tests
-├── models/
-│   └── churn_model.pkl               # Production model
-├── .github/
-│   └── workflows/
-│       └── ci_cd.yml                 # GitHub Actions pipeline
-├── Dockerfile                        # API container
-├── docker-compose.yml                # Multi-service orchestration
-├── requirements.txt
-└── README.md
+ app/
+    streamlit_app.py              # Business dashboard UI
+ src/
+    init.py
+    train.py                      # Model training + MLflow logging
+    predict.py                    # Prediction logic
+    api.py                        # FastAPI application
+    schemas.py                    # Pydantic input/output schemas
+    monitor.py                    # EvidentlyAI drift detection
+ tests/
+    test_api.py                   # API endpoint tests
+    test_predict.py               # Prediction logic tests
+ models/
+    churn_model.pkl               # Production model
+ .github/
+    workflows/
+        ci_cd.yml                 # GitHub Actions pipeline
+ Dockerfile                        # API container
+ docker-compose.yml                # Multi-service orchestration
+ requirements.txt
+ README.md
 
 ---
 
