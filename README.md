@@ -16,6 +16,20 @@
 
 ---
 
+## Architecture Flow
+
+```mermaid
+flowchart LR
+    RawData["Raw Input Data"] --> Transform["Feature Engineering Pipeline"]
+    Transform --> Training["LightGBM Model Training"]
+    Training --> MLflow["MLflow Artifact & Metric Logging"]
+    Training --> API["FastAPI Prediction Microservice"]
+    API --> Docker["Dockerized Deployment on Render"]
+    API --> Drift["EvidentlyAI Data Drift Monitoring"]
+```
+
+---
+
 ## The Real Business Problem
 
 Most data science projects die in Jupyter notebooks.
